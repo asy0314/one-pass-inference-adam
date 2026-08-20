@@ -1,0 +1,18 @@
+# Runtime environment for the three Section 6 experiments
+#   exp1_projection_clt.py    (numpy, scipy, matplotlib, numba)
+#   exp2_gamma_necessity.py   (numpy,        matplotlib, numba)
+#   exp3_coverage.py          (numpy, scipy, matplotlib, numba, scikit-learn)
+#
+# Python 3.13.  Set up and run from this folder, e.g.:
+#     python -m venv .venv && source .venv/bin/activate
+#     pip install -r requirements.txt
+#     python exp1_projection_clt.py
+#
+# Versions are pinned to those used to produce the reported figures and table
+# values; with the fixed random seeds the runs are deterministic, so these
+# pins reproduce the paper's numbers exactly.
+numpy==2.4.4
+scipy==1.17.1
+matplotlib==3.10.8
+numba==0.65.0
+scikit-learn==1.8.0
