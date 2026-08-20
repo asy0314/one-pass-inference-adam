@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local data cache (SUSY is downloaded by the user; see README)
+*.npy
+susy.npz
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# macOS
+.DS_Store
