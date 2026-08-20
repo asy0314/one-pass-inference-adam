@@ -1,8 +1,8 @@
 # One-Pass Streaming Inference with Adam
 ### A Polyak–Ruppert Central Limit Theorem Where Adaptivity Is Invisible
 
-**Sunyoung An** and **Xiaoming Huo**
-H. Milton Stewart School of Industrial and Systems Engineering, Georgia Institute of Technology
+**Sunyoung An** and **Xiaoming Huo** — H. Milton Stewart School of Industrial and Systems
+Engineering, Georgia Institute of Technology.
 
 Reproduction code for the 12-page applied paper accompanying
 [arXiv:2606.17364](https://arxiv.org/abs/2606.17364). The manuscript is not
