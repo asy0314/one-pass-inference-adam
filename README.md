@@ -4,9 +4,30 @@
 **Sunyoung An** and **Xiaoming Huo**
 H. Milton Stewart School of Industrial and Systems Engineering, Georgia Institute of Technology
 
-Reproduction code for the 12-page applied paper accompanying arXiv:2606.17364.
-The manuscript is not included here while it is under review; it will be posted
-once review is complete.
+Reproduction code for the 12-page applied paper accompanying
+[arXiv:2606.17364](https://arxiv.org/abs/2606.17364). The manuscript is not
+included here while it is under review; it will be posted once review is complete.
+
+![One pass over a 5-million-example stream reproduces stored-batch confidence intervals at flat O(d^2) memory](figs/exp4_streaming_logistic.png)
+
+*One pass over the 5,000,000-example SUSY stream recovers the stored-batch
+confidence intervals (left), resolves each coefficient's significance as data
+arrives (centre), and holds flat `O(d²)` state while the stored design grows past
+commodity RAM (right).*
+
+### Quick start
+
+The cached results are committed, so both expensive figures redraw in **under a
+minute** — no simulation, no data download:
+
+```bash
+cd sim
+pip install -r requirements.txt
+python exp1_theory_fused.py          # Figure 1  (~1 min)
+python exp3_coverage.py --replot     # Figure 2  (seconds)
+```
+
+Reproducing Figure 3 needs the SUSY download; see [Data you need](#data-you-need).
 
 ---
 
